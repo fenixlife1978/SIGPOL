@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440" role="img" aria-label="Escudo Policía del Estado Yaracuy">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#3fa4f0"/>
+      <stop offset="100%" stop-color="#1570c8"/>
+    </radialGradient>
+    <linearGradient id="navyb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#123a78"/>
+      <stop offset="100%" stop-color="#06214f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7d64a"/>
+      <stop offset="100%" stop-color="#d9a41f"/>
+    </linearGradient>
+    <linearGradient id="reds" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e22a2a"/>
+      <stop offset="100%" stop-color="#a81111"/>
+    </linearGradient>
+    <linearGradient id="greens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f9b45"/>
+      <stop offset="100%" stop-color="#146b2c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- outer navy shield band -->
+  <path d="M200 10 C 310 40 372 150 372 250 C 372 350 300 420 200 430 C 100 420 28 350 28 250 C 28 150 90 40 200 10 Z" fill="url(#navyb)" stroke="#0a1f45" stroke-width="4"/>
+  <!-- gold rim -->
+  <path d="M200 26 C 298 55 356 156 356 250 C 356 340 290 404 200 414 C 110 404 44 340 44 250 C 44 156 102 55 200 26 Z" fill="url(#gold)" stroke="#b8860b" stroke-width="2"/>
+  <!-- inner light-blue field -->
+  <path d="M200 60 C 280 86 330 172 330 250 C 330 328 278 382 200 392 C 122 382 70 328 70 250 C 70 172 120 86 200 60 Z" fill="url(#sky)"/>
+
+  <!-- curved banner text -->
+  <path id="topArc" d="M 92 130 C 150 70 250 70 308 130" fill="none"/>
+  <text font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="46" fill="#ffffff" letter-spacing="2" text-anchor="middle">
+    <textPath href="#topArc" startOffset="50%">POLICIA</textPath>
+  </text>
+
+  <!-- left & right words -->
+  <text x="66" y="250" transform="rotate(-90 66 250)" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="36" fill="#ffffff" text-anchor="middle">ESTADO</text>
+  <text x="334" y="250" transform="rotate(90 334 250)" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="36" fill="#ffffff" text-anchor="middle">YARACUY</text>
+
+  <!-- greenery palms -->
+  <path d="M120 150 C 100 150 84 170 88 196 C 82 176 90 158 104 150 Z" fill="#1f7d3a"/>
+  <path d="M128 158 C 104 172 92 196 100 216 C 88 200 92 176 110 160 Z" fill="#1f7d3a"/>
+  <path d="M138 164 C 122 186 114 212 122 236 C 108 220 108 196 122 172 Z" fill="#1f7d3a"/>
+  <path d="M280 150 C 300 150 316 170 312 196 C 318 176 310 158 296 150 Z" fill="#1f7d3a"/>
+  <path d="M272 158 C 296 172 308 196 300 216 C 312 200 308 176 290 160 Z" fill="#1f7d3a"/>
+  <path d="M262 164 C 278 186 286 212 278 236 C 292 220 292 196 278 172 Z" fill="#1f7d3a"/>
+
+  <!-- crossed swords -->
+  <g stroke="#1a1a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="120" y1="220" x2="280" y2="300"/>
+    <line x1="280" y1="220" x2="120" y2="300"/>
+  </g>
+
+  <!-- mini shield with emblem -->
+  <path d="M160 165 L240 165 L240 220 C240 250 220 275 200 282 C180 275 160 250 160 220 Z" fill="url(#reds)" stroke="#8a0d0d" stroke-width="3"/>
+  <path d="M168 175 C180 165 220 165 232 175 L232 218 C232 244 216 264 200 270 C184 264 168 244 168 218 Z" fill="url(#greens)"/>
+  <!-- sun emblem -->
+  <circle cx="200" cy="200" r="26" fill="url(#gold)"/>
+  <g stroke="#f7d64a" stroke-width="4" stroke-linecap="round">
+    <line x1="200" y1="168" x2="200" y2="154"/><line x1="200" y1="232" x2="200" y2="246"/>
+    <line x1="168" y1="200" x2="154" y2="200"/><line x1="232" y1="200" x2="246" y2="200"/>
+    <line x1="177" y1="177" x2="167" y2="167"/><line x1="223" y1="177" x2="233" y2="167"/>
+    <line x1="177" y1="223" x2="167" y2="233"/><line x1="223" y1="223" x2="233" y2="233"/>
+  </g>
+  <circle cx="200" cy="200" r="12" fill="#a81111"/>
+
+  <!-- castle / hill -->
+  <path d="M198 258 L243 258 L243 232 L232 232 L232 242 L222 242 L222 232 L198 232 Z" fill="#f5efe0" stroke="#9a8f78" stroke-width="1.5"/>
+  <path d="M200 232 L200 258 M214 232 L214 258" stroke="#9a8f78" stroke-width="1.5"/>
+
+  <!-- blue ribbon -->
+  <path d="M150 300 C200 316 200 316 250 300 L250 316 C200 332 200 332 150 316 Z" fill="#1c4f9c" stroke="#0d2f5e" stroke-width="2"/>
+</svg>
